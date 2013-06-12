@@ -35,9 +35,40 @@ data-title="View Source: Home">
 <a href="#Coordinates" data-transition="slide" data-role="button" data-icon="arrow-r">Get Location Co-ordinates</a>
 </div><!--content ends-->
 <div data-role="content">
-<a href="#Coordinates" data-transition="slide" data-role="button" data-icon="arrow-r">Compass</a>
+<a href="#compass" data-transition="slide" data-role="button" data-icon="arrow-r">Compass</a>
+
+
 </div><!--content ends-->
 </div><!--page ends-->
+<!--new compass page-->
+<div id="compass" 
+data-role="page" 
+data-theme="a"
+data-transition="slide"
+data-title="View Source: Compass">
+
+<div data-role="header" data-position="fixed" data-theme="a">
+<h1>Compass</h1>
+<!--<a href="#Coordinates">Cordinates</a>-->
+<a href="#info" data-role="button" data-icon="info" data-iconpos="right" class="ui-btn-right" >Info</a>
+</div>
+<!--<div data-role="content">
+<a href="#Coordinates" data-transition="slide" data-role="button" data-icon="arrow-r">Get Location Co-ordinates</a>
+</div><!--content ends-->
+<div data-role="content">
+<a href="#home" data-transition="slide" data-role="button" data-icon="arrow-r">Home</a>
+<img id="compass" class="Center" src="images/compass320.png" />
+</div><!--content ends-->
+</div><!--page ends-->
+
+<!--compass page ends-->
+
+
+
+
+
+
+
 
 <div id="Coordinates"
 data-role="page"
@@ -57,7 +88,7 @@ data-title="View Source: Co-ordinates">
 </div>
 <a href="#Get Elevation" data-role="button">Get Elevation</a>
 <a href="#Get Direction" data-role="button">Get Direction</a>
-<img id="compass" class="Center" src="images/compass320.png" />
+
 
 
 <li><div data-role="footer" data-position="fixed" data-id="vs_footer">
