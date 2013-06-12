@@ -4,4 +4,18 @@
 
 body {background-image:url(../images/mountains-valleys-phoneapp.jpg);
 }
+
+img {
+	position:fixed;
+	width:auto;
+	margin-left:430px;
+	margin-top:30px;
+}
+
+#compass
+{
+	transform:rotate(0deg); /* in case someone creates a compliant browser */
+	-ms-transform:rotate(0deg); /* WP7 */
+	-webkit-transform:rotate(0deg); /* iOS and Android */
+}
 	
