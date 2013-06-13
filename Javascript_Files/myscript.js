@@ -14,7 +14,7 @@
     function onDeviceReady() {
         startWatch();
     }
-
+     alert("The device iis ready");
     // Start watching the compass
     //
     function startWatch() {
