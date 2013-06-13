@@ -51,12 +51,17 @@ data-title="View Source: Compass">
 <h1>Compass</h1>
 <!--<a href="#Coordinates">Cordinates</a>-->
 <a href="#info" data-role="button" data-icon="info" data-iconpos="right" class="ui-btn-right" >Info</a>
+<a href="#home" data-role="button" data-icon="back" data-iconpos="left" class="ui-btn-left">back</a>
 </div>
 <!--<div data-role="content">
 <a href="#Coordinates" data-transition="slide" data-role="button" data-icon="arrow-r">Get Location Co-ordinates</a>
 </div><!--content ends-->
 <div data-role="content">
-<a href="#home" data-transition="slide" data-role="button" data-icon="arrow-r">Home</a>
+<!--content from phonegap-->
+     <div id="heading">Waiting for heading...</div>
+    <button onclick="startWatch();">Start Watching</button>
+    <button onclick="stopWatch();">Stop Watching</button>
+<!--content from phonegap ends-->
 <img id="compass" class="Center" src="images/compass320.png" />
 </div><!--content ends-->
 </div><!--page ends-->
@@ -144,6 +149,6 @@ data-role="button"
 data-inline="true">Home</a>
 </div><!--content ends-->
 </div><!-- page ends-->
-<script src="app.js" type="text/javascript"></script>
+
 </body>
 </html>
