@@ -40,7 +40,7 @@
     function onSuccess(heading) {
         var element = document.getElementById('heading');
         element.innerHTML = 'Heading: ' + heading.magneticHeading;
-		alert("Inside on success");
+		alert(heading.magneticHeading);
     }
 
     // onError: Failed to get the heading
