@@ -4,7 +4,7 @@
 
     // The watch id references the current `watchHeading`
     var watchID = null;
-    alert("document loaded");
+    
     // Wait for Cordova to load
     //
     document.addEventListener("deviceready", onDeviceReady, false);
@@ -13,8 +13,9 @@
     //
     function onDeviceReady() {
         startWatch();
+		alert("The device iis ready");
     }
-     alert("The device iis ready");
+     
     // Start watching the compass
     //
     function startWatch() {
@@ -39,6 +40,7 @@
     function onSuccess(heading) {
         var element = document.getElementById('heading');
         element.innerHTML = 'Heading: ' + heading.magneticHeading;
+		alert("Inside on success");
     }
 
     // onError: Failed to get the heading
